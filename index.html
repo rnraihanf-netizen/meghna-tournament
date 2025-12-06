@@ -2,33 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meghna Tournament</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <img src="assets/logo.png" class="logo">
+    <div class="header">
+        <img src="assets/banner.png" class="logo">
         <h1>Meghna Tournament</h1>
-    </header>
+    </div>
 
-    <section class="banner">
-        <img src="assets/banner.png">
-    </section>
-
-    <section class="buttons">
-        <a href="#">Free Fire Tournament</a>
-        <a href="#">PUBG Tournament</a>
-        <a href="#">Match Result</a>
-        <a href="#">Join WhatsApp Group</a>
-        <a href="admin/admin.html">Admin Login</a>
-    </section>
+    <div class="container">
+        <button onclick="goto('freefire.html')">Free Fire Tournament</button>
+        <button onclick="goto('pubg.html')">PUBG Tournament</button>
+        <button onclick="goto('result.html')">Match Result</button>
+        <button onclick="goto('whatsapp.html')">Join WhatsApp Group</button>
+        <button onclick="goto('admin.html')">Admin Login</button>
+    </div>
 
     <footer>
-        <p>© 2025 Meghna Tournament</p>
+        © 2025 Meghna Tournament
     </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
+
 </body>
-                                  </html>
+</html>
