@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0c0f29;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(45deg, #0047ab, #ff7f00);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.buttons a {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    background: #1b1f3b;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #11152e;
+}
